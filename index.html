@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="card text-center">
+        <div class="card-header d-lg-flex justify-content-lg-between">
+          <ul class="nav nav-pills card-header-pills">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#"
+                ><img src="./logo.svg" alt=""
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Browse</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Landings</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Pages</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link dropdown-toggle"
+                role="button"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Accounts</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <div>
+              <button
+                class="btn btn-lg btn-sm border border-dark rounded-circle"
+              >
+                <i class="bi bi-bell"></i>
+                <span
+                  class="position-absolute translate-middle p-1 bg-primary border border-light rounded-circle"
+                >
+                </span>
+              </button>
+            </div>
+            <div>
+              <button class="border-0 bg-transparent">
+                <img
+                  class="rounded-circle bg-transparent"
+                  height="30px"
+                  width="30px"
+                  src="./avatar-1.jpg"
+                  alt=""
+                />
+                <span
+                  class="position-absolute bottom-50 translate-middle-y p-1 bg-primary border border-light rounded-circle"
+                >
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div
+          class="p-0 card-body bg-primary d-flex flex-nowrap justify-content-center"
+        >
+          <div
+            class="d-flex flex-column justify-content-center"
+            style="width: 25%"
+          >
+            <h3 class="card-title text-light align-self-lg-start">
+              Welcome Web Students
+            </h3>
+            <p class="card-text text-white-50">
+              Hand-picked Instructor and expertly crafted courses, designed for
+              the modern students and entrpreneur.
+            </p>
+            <div class="d-flex align-content-lg-start">
+              <a href="#" class="btn btn-success">Browse Courses</a>
+              <a href="#" class="btn btn-light text-dark"
+                >Are you instructor?</a
+              >
+            </div>
+          </div>
+          <div><img src="./hero-img.png" alt="" /></div>
+        </div>
+      </div>
+      <div
+        class="container text-center border border-1 border-black w-auto h-50 m-0"
+      >
+        <div class="row mt-2">
+          <div class="col">
+            <i class="bi bi-camera-video border border-danger rounded p-1"></i>
+          </div>
+          <div class="col"><i class="bi bi-people-fill"></i></div>
+          <div class="col"><i class="bi bi-clock"></i></div>
+        </div>
+      </div>
+    </header>
+    
+        <section class="pt-5 pb-5 d-flex ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="mb-3">Most Popular </h3>
+                    </div>
+                    
+                    <div class="col-12">
+                       
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row ">
+                                        
+                                        <div class="col-md-3 mb-3 d-flex">
+                                            <a class="btn btn-primary mb-3 mr-1 align-self-center" href="#" role="button" data-slide="prev">
+                                                <i class="bi bi-arrow-bar-left"></i>
+                                            </a>
+                                            <div class="card">
+                                                <img class="img-fluid" alt="" src="./course-graphql.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                    <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+        
+                                                </div>
+        
+                                            </div>
+                                           
+                                               
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="" src="./course-javascript.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                    <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="./course-node.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                    <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 mb-3 d-flex">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="" src="./course-laravel.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                    <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+        
+                                                </div>
+                                            </div>
+                                            <a class="btn btn-primary mb-3 align-self-center " href="#" role="button" data-slide="next">
+                                                <i class="bi bi-arrow-bar-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>    
+                            <section class="pt-5 pb-5 d-flex ">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3 class="mb-3">Trending </h3>
+                                        </div>
+                                        
+                                        <div class="col-12">
+                                           
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <div class="row ">
+                                                            
+                                                            <div class="col-md-3 mb-3 d-flex">
+                                                                <a class="btn btn-primary mb-3 mr-1 align-self-center" href="#" role="button" data-slide="prev">
+                                                                    <i class="bi bi-arrow-bar-left"></i>
+                                                                </a>
+                                                                <div class="card">
+                                                                    <img class="img-fluid" alt="" src="./course-graphql.jpg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                        <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                            
+                                                                    </div>
+                            
+                                                                </div>
+                                                               
+                                                                   
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid" alt="" src="./course-javascript.jpg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                        <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                            
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3">
+                                                                <div class="card">
+                                                                    <img class="img-fluid" alt="100%x280" src="./course-node.jpg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                        <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                            
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3 d-flex">
+                                                                <div class="card">
+                                                                    <img class="img-fluid" alt="" src="./course-laravel.jpg">
+                                                                    <div class="card-body">
+                                                                        <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                        <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                            
+                                                                    </div>
+                                                                </div>
+                                                                <a class="btn btn-primary mb-3 align-self-center " href="#" role="button" data-slide="next">
+                                                                    <i class="bi bi-arrow-bar-right"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>                       
+                                                   
+                                                <section class="pt-5 pb-5 d-flex ">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <h3 class="mb-3">Recomanded to you </h3>
+                                                            </div>
+                                                            
+                                                            <div class="col-12">
+                                                               
+                                                                    <div class="carousel-inner">
+                                                                        <div class="carousel-item active">
+                                                                            <div class="row ">
+                                                                                
+                                                                                <div class="col-md-3 mb-3 d-flex">
+                                                                                    <a class="btn btn-primary mb-3 mr-1 align-self-center" href="#" role="button" data-slide="prev">
+                                                                                        <i class="bi bi-arrow-bar-left"></i>
+                                                                                    </a>
+                                                                                    <div class="card">
+                                                                                        <img class="img-fluid" alt="" src="./course-graphql.jpg">
+                                                                                        <div class="card-body">
+                                                                                            <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                                            <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                                                
+                                                                                        </div>
+                                                
+                                                                                    </div>
+                                                                                   
+                                                                                       
+                                                                                </div>
+                                                                                <div class="col-md-3 mb-3">
+                                                                                    <div class="card">
+                                                                                        <img class="img-fluid" alt="" src="./course-javascript.jpg">
+                                                                                        <div class="card-body">
+                                                                                            <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                                            <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                                                
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-3 mb-3">
+                                                                                    <div class="card">
+                                                                                        <img class="img-fluid" alt="100%x280" src="./course-node.jpg">
+                                                                                        <div class="card-body">
+                                                                                            <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                                            <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                                                
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="col-md-3 mb-3 d-flex">
+                                                                                    <div class="card">
+                                                                                        <img class="img-fluid" alt="" src="./course-laravel.jpg">
+                                                                                        <div class="card-body">
+                                                                                            <h4 class="card-title">GraphQL: Introduction to graphQL for Begginers</h4>
+                                                                                            <p class="card-text"><i class="bi bi-clock">2h 40m</i></p>
+                                                
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <a class="btn btn-primary mb-3 align-self-center " href="#" role="button" data-slide="next">
+                                                                                        <i class="bi bi-arrow-bar-right"></i>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </section>                       
+                                                                       
+                                                                               
+                               
+
+    </body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
